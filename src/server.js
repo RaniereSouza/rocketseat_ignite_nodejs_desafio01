@@ -1,3 +1,4 @@
-const app = require('./');
+const app  = require('./'),
+      port = 3333;
 
-app.listen(3333);
+app.listen(port);
